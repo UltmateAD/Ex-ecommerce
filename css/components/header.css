@@ -7,13 +7,15 @@ position: fixed;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 2rem);
-  padding: 1.5rem;
+  max-width: 1250px;
+  padding: 0.4rem 1.5rem;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--background-color-header);
   border: 2px solid var(--border-color);
+  
 }
 
 

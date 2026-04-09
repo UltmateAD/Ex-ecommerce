@@ -4,5 +4,5 @@ body {
     font-family: var(--fonte-principal);
     color: #333;
     line-height: 1.6;
-    background-color: var(--background-color);
+    background: var(--background-color);
 }
