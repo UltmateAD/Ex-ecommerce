@@ -2,12 +2,13 @@
     .navigation{
         display: none;
         }
-    }
+    
   ul{
     margin: 0 0.5rem;}
     .hero{
-         min-height: 300px;
+         min-height: 300px;      
         }
     .hero-buttons>button{
         font-size:0.9rem;
     }
+}

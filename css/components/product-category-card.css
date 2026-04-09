@@ -1,15 +1,72 @@
 /* product-card.css */
+
+.relevant-categories{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 2rem;
+    border-radius: 30px;
+    max-width: 98%;
+}
+.card{
+    position: relative;
+    display: flex;
+    max-width: 30%;
+    height: 12rem;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.btn-cat{
+    background-color: transparent;
+    color: var(--text-color-hero);
+    border: 2px solid var(--text-color-hero);
+    padding: 0.5rem 1rem;
+}
+
+
 .acomodacoes{
     background: url(../../images/categories/acomodacoes.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
     background-position: center;
 }
-.relevant-categories{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-   
+.rotas{
+    background: url(../../images/categories/rotas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atividades{
+    background: url(../../images/categories/atividades.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.guia{
+    background: url(../../images/categories/guia.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+}
+.gastronomia{
+    background: url(../../images/categories/gastronomia.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
 }
