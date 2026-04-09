@@ -8,5 +8,6 @@
     --links-color: rgb(98, 44, 134);
     --hover-links-color: rgba(116, 48, 155, 0.699);
     --text-color-hero: white;
-    --background-transparent: rgba(226, 226, 226, 0.253);
+    --background-transparent: rgba(226, 226, 226, 0.1);
+    --hover-button-color: rgba(108, 38, 126, 0.95);
 }

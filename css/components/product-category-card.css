@@ -1,0 +1,15 @@
+/* product-card.css */
+.acomodacoes{
+    background: url(../../images/categories/acomodacoes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+.relevant-categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+   
+}

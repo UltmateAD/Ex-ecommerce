@@ -6,3 +6,12 @@ body {
     line-height: 1.6;
     background: var(--background-color);
 }
+button:hover{
+    cursor: pointer;
+    transform: translateY(-2px) scale(1.05);
+    transition: 0.5s;
+    color: white;
+    border-color: var(--hover-button-color);
+    background-color: var(--hover-links-color);
+
+}

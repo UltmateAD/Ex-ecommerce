@@ -39,8 +39,6 @@
 }
 li:hover{
     color: var(--hover-links-color);
-    transition:color 0.3s ease;
-    transition:0.4s;
     background-color: var(--background-color-header);
     transform: translateY(-2px) scale(1.05);
     
