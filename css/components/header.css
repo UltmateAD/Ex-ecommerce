@@ -12,9 +12,10 @@ position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(226, 243, 245);
-  border: 2px solid rgba(41, 64, 83, 0.1);
+  background-color: var(--background-color-header);
+  border: 2px solid var(--border-color);
 }
+
 
 .logo {
   display: flex;
@@ -31,22 +32,19 @@ position: fixed;
   gap: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 2px;
-  color: rgba(101, 133, 192, 0.699);
+  color: var(--links-color);
   
 }
 li:hover{
-    color: rgba(101, 133, 192, 1);
+    color: var(--hover-links-color);
     transition:color 0.3s ease;
     transition:0.4s;
-    background-color: rgba(238, 243, 247, 0.795);
-    border: 1px solid rgba(126, 167, 201, 0.466);
-    transform: translateY(-2px);
+    background-color: var(--background-color-header);
+    transform: translateY(-2px) scale(1.05);
     
 }
 li{
-    background-color: rgb(226, 243, 245);
-    border: 1px solid rgb(226, 243, 245);
+    background-color: var(--background-color-header);
     padding: 2px 4px;
     border-radius: 5px;
 }

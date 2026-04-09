@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 :root{
     --fonte-principal: 'ubuntu', sans-serif;
+    /* --background-gradient: linear-gradient(130deg, #f5f7fa 20%, #4e5c744f 100%); */
+    --background-color: #ccd1d8b0;
+    --background-color-header: rgb(255, 255, 255);
+    --border-color: rgba(98, 58, 131, 0.493);
+    --links-color: rgb(98, 44, 134);
+    --hover-links-color: rgba(116, 48, 155, 0.699);
 }
