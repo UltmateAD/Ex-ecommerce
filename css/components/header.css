@@ -6,7 +6,7 @@
     top: 1.25rem;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 2rem);
+    width: calc(100% - 3rem);
     max-width: 1250px;
     padding: 0.4rem 1.5rem;
     border-radius: 20px;

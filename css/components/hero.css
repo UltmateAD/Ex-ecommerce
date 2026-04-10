@@ -1,29 +1,30 @@
 /* hero.css */
 .hero{
  
-   
+   padding: 1.5rem;
     background: url(../../images/backgrounds/hero2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
+    aspect-ratio: 16/5;
     background-repeat: repeat-x;
     background-position: center;
     display : flex;
     align-items: flex-end;
     justify-content: flex-end;
     width: 100%;
+    max-width: 1850px;
+    border-radius: 30px;
     
 }
 .hero-content{
     background-color: var(--background-transparent);
    color:var(--text-color-hero);
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 10px;
     max-width: 400px;
-    margin-right: 2rem;
-     border: 2px solid var(--text-color-hero);
-     align-items: flex-end;
-     justify-content: flex-end;
+    border: 2px solid var(--text-color-hero);
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .hero-cont{
     

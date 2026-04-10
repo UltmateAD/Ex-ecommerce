@@ -1,1 +1,73 @@
 /* product-grid.css */
+.product-grid {
+    border-radius: 30px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "destaque destaque grid-2 grid-2"
+                         "destaque destaque grid-4 grid-5"
+                         "grid-3 grid-3 grid-4 grid-6";
+    gap: 1.2rem;
+    padding: 1.5rem;
+    width: 98%;
+    max-width: 1830px;
+    
+}
+
+.destaque {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    background: url(../../images/products/destaque.png);
+    background-position: top center;
+    grid-area: destaque;
+    text-align: end;
+    
+}
+
+.grid-3 {
+    background: url(../../images/products/grid3.png);
+    background-position: top center;
+    background-color: lightgreen;
+    grid-area: grid-3;
+}
+.grid-4 {
+    background: url(../../images/products/grid4.png);
+    background-position: top center;
+    background-color: pink;
+    grid-area: grid-4;
+}
+
+.grid-6 {
+    background: url(../../images/products/grid6.png);
+    background-color: yellow;
+    grid-area: grid-6;
+}
+
+.grid-2 {
+    grid-area: grid-2;
+    background: url(../../images/products/grid2.png);
+    background-color: lightblue;
+    background-position: center;
+}
+.grid-5 {
+    grid-area: grid-5;
+    background: url(../../images/products/grid5.png);
+    background-color: orange;
+    background-position:center;
+}
+.card-grid {
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+    overflow: hidden; 
+}
+.texto-destaque{
+    color: var(--text-color-hero);
+    font-style: italic;
+     
+}

@@ -1,14 +1,71 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 855px){
     .navigation{
         display: none;
         }
     
   ul{
-    margin: 0 0.5rem;}
+    margin: 0 0.5rem;
+}
     .hero{
          min-height: 300px;      
         }
     .hero-buttons>button{
         font-size:0.9rem;
+    }
+    .card{
+        max-width: 40%;
+    }
+}
+@media screen and (max-width: 1830px){
+   .hero{
+    
+    width: 98%;
+   }
+
+}
+@media screen and (max-width: 1250px){
+   .hero{
+    aspect-ratio: 16/6;
+   }
+    }
+@media screen and (max-width: 500px){
+    main{
+        overflow-x: hidden;
+        font-size:smaller;
+    }
+    .product-grid{
+        overflow-x: hidden;
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 140px);
+        grid-template-areas: 
+        "destaque destaque grid-4"
+        "destaque destaque grid-4"
+        "grid-5 grid-2 grid-2"
+        "grid-3 grid-3 grid-6" 
+    }
+     .card{
+        overflow-x: hidden;
+        max-width: 46%;
+    }
+    .hero{
+        padding: 0.2rem;
+        width: 100%;
+        height: 250px;
+        border-radius: 0px;
+        overflow-x: hidden;
+    }
+    .hero-buttons>button{
+        margin: 0rem 0rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .relevant-categories{
+        padding: 1.6rem 1rem;
+        width: 98%;
+        overflow-x: hidden;
+    }
+    .back>button{
+        padding: 0.4rem 0.4rem;
     }
 }
