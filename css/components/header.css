@@ -3,7 +3,7 @@
 .main-header {
     position: fixed;
     z-index: 1000;
-    top: 1.5rem;
+    top: 1.25rem;
     left: 50%;
     transform: translateX(-50%);
     width: calc(100% - 2rem);
@@ -18,7 +18,13 @@
   
 }
 
-
+.icon{
+  fill: var(--links-color);
+}
+.icon:hover{
+  fill: var(--hover-links-color);
+  transform: translateY(-2px) scale(1.05);
+}
 .logo {
   display: flex;
   align-items: center;
