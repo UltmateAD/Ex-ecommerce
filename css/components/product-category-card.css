@@ -44,31 +44,31 @@
 
 
 .acomodacoes{
-    background: url(../../images/categories/acomodacoes.png);
+    background: url("../../images/categories/acomodacoes.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .rotas{
-    background: url(../../images/categories/caminhos.png);
+    background: url("../../images/categories/caminhos.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .atividades{
-    background: url(../../images/categories/atividades.png);
+    background: url("../../images/categories/atividades.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .guia{
-    background: url(../../images/categories/guia.png);
+    background: url("../../images/categories/guia.png");
     background-size: cover;
     background-repeat: no-repeat;   
     background-position: center;
 }
 .gastronomia{
-    background: url(../../images/categories/gastronomia.png);
+    background: url("../../images/categories/gastronomia.png");
     background-size: cover;
     background-repeat: no-repeat;    
     background-position: center;
