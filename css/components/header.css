@@ -43,13 +43,13 @@
   color: var(--links-color);
   
 }
-li:hover{
+.nav-links li:hover{
     color: var(--hover-links-color);
     background-color: var(--background-color-header);
     transform: translateY(-2px) scale(1.05);
     
 }
-li{
+.nav-links li{
     padding: 2px 4px;
     border-radius: 5px;
 }
