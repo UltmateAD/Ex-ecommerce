@@ -1,11 +1,51 @@
 @media screen and (max-width: 855px){
     .navigation{
-        display: none;
-        }
-    
-  ul{
-    margin: 0 0.5rem;
-}
+        z-index: 999;
+        right: -100%;
+        position: fixed;
+        top: 3.1rem;
+        width: 200px;
+        background-color: var(--background-color-header);
+        padding: 0.8rem;
+        border-radius: 20px;
+        border-color: var(--border-color);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.308);
+        transition: right 0.8s easy ;
+    }
+    .menu-button{
+        cursor: pointer;
+        z-index: 1001;
+        
+    }
+    .navigation>.nav-links{
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation>.nav-links>li:hover{
+        background-color: transparent;
+    }
+    .navigation>.nav-links a{
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        padding: 0.2rem;
+        display: block;
+    }
+    .navigation>.nav-links li{
+        width: 80%;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        
+    }
     .hero{
          min-height: 300px;      
         }
@@ -14,6 +54,15 @@
     }
     .card{
         max-width: 40%;
+    }
+    .menu-toggle:checked ~ .navigation{
+        right: 0;
+    }
+
+}
+@media screen and (min-width: 856px){
+    .menu-button{
+        display: none;
     }
 }
 @media screen and (max-width: 1830px){

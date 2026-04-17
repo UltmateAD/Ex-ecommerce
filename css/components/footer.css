@@ -113,7 +113,7 @@ footer{
     color: var(--hover-links-color);
 }
 .footer-subscribe__disclaimer{
-    font-size: x-small;
+    font-size: smaller;
     text-align: center;
 }
 .footer-subscribe__hero>div>h2{

@@ -50,7 +50,10 @@ li:hover{
     
 }
 li{
-    background-color: var(--background-color-header);
     padding: 2px 4px;
     border-radius: 5px;
+}
+
+.menu-toggle{
+  display:none;
 }
