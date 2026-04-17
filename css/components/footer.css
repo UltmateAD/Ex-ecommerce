@@ -134,3 +134,13 @@ footer{
     background-color: transparent; /* Remove o fundo definido no header.css */
     padding: 0.5rem 0;             /* Adiciona um espaçamento apenas vertical entre os links */
 }
+
+.footer-links__column a {
+    text-decoration: none;
+    color: var(--links-color);
+    transition: color 0.3s ease;
+}
+
+.footer-links__column a:hover {
+    color: var(--hover-links-color);
+}
