@@ -1,1 +1,136 @@
 /* footer.css */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    gap:2rem;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    gap: 1.5rem;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: calc(100% - 3rem);
+    max-width: 1250px;
+    gap: 2rem 2rem;
+}
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem
+}
+.footer-socials__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--links-color);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.footer-socials__link:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--hover-links-color);
+    transform: translateY(-2px);
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.footer-links__column{
+    min-width: 180px;
+    flex: 1;
+   
+}
+
+.footer-subscribe__form {
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.footer-subscribe__form:focus-within {
+    transform: translateY(-2px);
+}
+
+.footer-subscribe__form input {
+    flex: 1;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.footer-subscribe__form .btn2 {
+    margin: 0;
+    border-radius: 0 8px 8px 0;
+    padding: 0 1.5rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.footer-subscribe__hero{
+    display: flex;
+    gap: 1.2rem;
+}
+.footer-subscribe__icon{
+    color: var(--links-color);
+    transition: color 0.3s ease;
+}
+.footer-subscribe__icon:hover{
+    color: var(--hover-links-color);
+}
+.footer-subscribe__disclaimer{
+    font-size: x-small;
+    text-align: center;
+}
+.footer-subscribe__hero>div>h2{
+    color: var(--links-color);
+}
+.footer-links__column>h3{
+    color: var(--links-color);
+    
+}
+
+.footer-links__column ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;       /* Remove o recuo padrão do navegador */
+    margin: 0;        /* Remove margens padrão */
+}
+
+.footer-links__column li {
+    background-color: transparent; /* Remove o fundo definido no header.css */
+    padding: 0.5rem 0;             /* Adiciona um espaçamento apenas vertical entre os links */
+}
